@@ -14,6 +14,9 @@ services:
     override: replace
     command: apachectl -D FOREGROUND
 
+# rebuild
+
+
 parts:
   keystone-user:
     plugin: nil
